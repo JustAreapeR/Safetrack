@@ -1,0 +1,143 @@
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #fff;
+  border-radius: 8px;
+}
+
+.leaflet-popup-content {
+  padding: 15px;
+}
+
+.leaflet-popup-tip {
+  border-top-color: #fff;
+}
+
+.leaflet-popup h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.leaflet-popup p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.leaflet-control-zoom {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.leaflet-control-zoom a {
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.leaflet-control-zoom a:hover {
+  color: blueviolet;
+}
+
+.leaflet-control-attribution {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.leaflet-control-attribution a {
+  color: #666;
+  text-decoration: none;
+}
+
+.leaflet-control-attribution a:hover {
+  color: blueviolet;
+}
+
+.alert {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: 400px;
+  text-align: center;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+
+.location-share-controls {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.share-location-btn {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.share-location-btn:hover {
+  background: #45a049;
+}
+
+.share-duration-picker {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.share-duration-picker label {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.share-duration-picker input {
+  width: 80px;
+  padding: 0.25rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.share-duration-picker button {
+  background: #2196F3;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.share-duration-picker button:hover {
+  background: #1976D2;
+}
